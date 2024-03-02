@@ -137,3 +137,45 @@ body {
     padding: 0.3em 0.5em;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 641px) {
+    .main {
+        padding: 2rem 4rem;
+    }
+
+    .main__text {
+        width: 68%;
+    }
+
+    .main__header {
+        background-position: bottom 1.25rem right 6rem;
+        background-size: 36.5%;
+
+    }
+
+    .img__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main {
+        padding: 1em 1em;
+        margin-top: -4rem;
+    }
+
+    .main__header {
+        background-position: bottom 4.1rem right -8rem;
+        background-size: 98%;
+        padding-top: 5rem;
+    }
+
+.main__text {
+    width: 100%;
+}
+
+.img__list {
+    grid-template-columns: 1fr;
+    /* gap: 3rem 1.5rem; */
+}
+}
