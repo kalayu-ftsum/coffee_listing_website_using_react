@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #111315;
+}
+
+.main {
+    background-color: #1B1D1F;
+    position: relative;
+    margin-top: -14rem;
+    margin-bottom: 10%;
+    height: 80%;
+    width: 80%;
+    margin-inline: auto;
+    padding: 2rem 8rem 6rem;
+}
+
+.main__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #FEF7EE;
+}
+
+.main__text {
+    text-align: center;
+    font-size: 1rem;
+    width: 55%;
+    margin-inline: auto;
+    color: #6F757C;
+    margin-block: 0.5rem;
+}
+
+.main__header {
+    background-image: url(/static/media/vector.2d035731.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 1.25rem right 13rem;
+    background-size: 27.5%;
+    padding-top: 5rem;
+}
+
+.list__actions {
+    text-align: center;
+    margin-block: 1rem;
+    margin-bottom: 2rem
+}
+
+.btn__primary {
+    background-color: #6F757C;
+    padding: 0.3em;
+    border-radius: 0.4em;
+    font-size: 1.1rem;
+    color: #FEF7EE;
+}
+
+.btn__secondary {
+    color: #FEF7EE;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+}
+
